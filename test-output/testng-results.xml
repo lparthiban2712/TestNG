@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118" started-at="2022-09-04T03:53:21Z" finished-at="2022-09-04T03:53:21Z">
+    <groups>
+      <group name="regression">
+        <method signature="LoanTest.HomeLoanTest()[pri:1, instance:test.LoanTest@23ceabc1]" name="HomeLoanTest" class="test.LoanTest"/>
+        <method signature="LoanTest.PersonalLoanTest()[pri:0, instance:test.LoanTest@23ceabc1]" name="PersonalLoanTest" class="test.LoanTest"/>
+        <method signature="LoanTest.PersonalLoanTest1()[pri:2, instance:test.LoanTest@23ceabc1]" name="PersonalLoanTest1" class="test.LoanTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CardTest.cctest()[pri:0, instance:test.CardTest@100fc185]" name="cctest" class="test.CardTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="118" started-at="2022-09-04T03:53:21Z" finished-at="2022-09-04T03:53:21Z">
+      <class name="test.LoanTest">
+        <test-method status="PASS" signature="method3()[pri:0, instance:test.LoanTest@23ceabc1]" name="method3" is-config="true" duration-ms="14" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="PersonalLoanTest()[pri:0, instance:test.LoanTest@23ceabc1]" name="PersonalLoanTest" duration-ms="11" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanTest -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:test.LoanTest@23ceabc1]" name="method1" is-config="true" duration-ms="0" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.LoanTest@23ceabc1]" name="method2" is-config="true" duration-ms="4" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:test.LoanTest@23ceabc1]" name="method1" is-config="true" duration-ms="1" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="HomeLoanTest()[pri:1, instance:test.LoanTest@23ceabc1]" name="HomeLoanTest" duration-ms="2" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanTest -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.LoanTest@23ceabc1]" name="method2" is-config="true" duration-ms="1" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="PersonalLoanTest1()[pri:2, instance:test.LoanTest@23ceabc1]" name="PersonalLoanTest1" duration-ms="4" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanTest1 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:test.LoanTest@23ceabc1]" name="method1" is-config="true" duration-ms="0" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.LoanTest@23ceabc1]" name="method2" is-config="true" duration-ms="2" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:test.LoanTest@23ceabc1]" name="method4" is-config="true" duration-ms="0" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- test.LoanTest -->
+      <class name="test.CardTest">
+        <test-method status="PASS" signature="method1()[pri:0, instance:test.CardTest@100fc185]" name="method1" is-config="true" duration-ms="0" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="cctest()[pri:0, instance:test.CardTest@100fc185]" name="cctest" duration-ms="4" started-at="2022-09-04T09:23:21Z" description="sample testing" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cctest -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.CardTest@100fc185]" name="method2" is-config="true" duration-ms="4" started-at="2022-09-04T09:23:21Z" finished-at="2022-09-04T09:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- test.CardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
